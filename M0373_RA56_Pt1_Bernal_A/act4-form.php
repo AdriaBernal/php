@@ -9,7 +9,7 @@ echo '<h3>Aquest fitxer és '.basename(__FILE__).'</h3>';?>
 <label for="edat">Edat:</label>
 <input type="text" name="edat"></input>  
 
-<input type="submit">
+        <input type="submit">
 </form>
 
 <?php include 'peu.php'; ?>
