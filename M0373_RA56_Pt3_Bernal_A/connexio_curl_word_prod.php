@@ -1,6 +1,6 @@
 <?php
 $url = "http://localhost/wordpress/?rest_route=/wp/v2/";
-$element = "posts";
+$element = "product";
 $client = curl_init();
 curl_setopt($client, CURLOPT_URL, $url . $element);
 curl_setopt($client, CURLOPT_HEADER, 0);
