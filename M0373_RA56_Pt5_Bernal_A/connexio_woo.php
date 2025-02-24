@@ -1,5 +1,5 @@
 <?php
-require DIR .'/vendor/autoload.php';
+require __DIR__ .'/vendor/autoload.php';
 use Automattic\WooCommerce\Client;
 
 $url_wordpress="http://192.168.56.11/wordpress";
